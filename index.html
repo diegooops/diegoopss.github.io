@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button id="playPauseBtn" class="speaker-btn">🔊</button>
+    <!-- Elemento de audio -->
+    <audio id="backgroundMusic" src="music.mp3"></audio>
+  </header>
+  <main>
+    <div class="container-letter">
+        <div class="cover"></div>
+            <span class="heart">♥</span>
+            <p class="paper" id="mainMessage">
+              ¡Hola! ¿Cómo estás? ¿Cómo te fue hoy? Jejejs Espero que hayas tenido un buen día y que todo te esté yendo bien. Como siempre te deseo lo mejor. <br>Tal vez te preguntes qué es esto, bueno la verdad es que me he estado preguntando por ti y de todos los buenos momentos vividos.
+            </p>
+        <div class="letter"></div>
+    </div>
+    <div class="options">
+      <button id="open">Abrir</button>
+      <button id="next">Siguiente</button>
+      <button id="close">Cerrar</button>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
